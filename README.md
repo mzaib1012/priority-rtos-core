@@ -16,9 +16,9 @@ This RTOS implements a **Priority-Based Cooperative Scheduler**. Unlike preempti
 ```text
 priority-rtos-core/
 ├── include/
-│   └── rtos.h         # System definitions, TCB structures, and API headers
+│   └── rtos.h                  # System definitions, TCB structures, and API headers
 ├── src/
-│   └── rtos.c         # Scheduler logic, context switching, and sync primitives
+│   └── rtos.c                  # Scheduler logic, context switching, and sync primitives
 ├── tests/
-│   └── main.c         # Simulation of multi-tasking workloads with priority competition
-└── RTOS_Simulation.ipynb # Google Colab environment for cloud-based compilation & execution
+│   └── main.c                  # Simulation of multi-tasking workloads with priority competition
+└── RTOS_Core_Simulation.ipynb  # Google Colab environment for cloud-based compilation & execution
